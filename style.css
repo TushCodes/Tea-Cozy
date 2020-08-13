@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+  opacity: 0.9;
+}
+
+*:hover {
+  opacity: 1;
+}
+
+html {
+font-family: Helvetica;
+font-size: 22px;
+color: seashell;
+text-align: center;
+} 
+body {
+  opacity: 1;
+}
+
+header {
+position: fixed;
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+height: 69px;
+border-bottom: 1px solid white;
+z-index: 1;
+}
+header img {
+margin-left: 10px;
+height: 50px;
+}
+nav li {
+display: inline-block;
+list-style-type: none;
+margin: auto 10px;
+}
+nav a {
+color: white;
+}
+
+#mission {
+width: 100%;
+display: flex;
+justify-content: center;
+}
+#mission .container {      
+background-image: url("./img/mission.jpg");
+height: 700px;
+background-size: cover;
+}
+#mission .mission-text {
+background-color: black;
+margin-top: 350px;
+width: 1200px;
+}
+
+#featured {
+  width: 1000px;
+  margin: 60px auto;
+}
+
+.gallery {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.gallery figure {
+  margin: 10px;
+}
+.gallery figure img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+#locations {
+  box-sizing: border-box;
+  background-image: url("./img/locations.jpg");
+  background-size: cover;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+#locations h2 {
+  width: fit-content;
+  margin: 0 auto;
+  background-color: transparent;
+  font-weight: 800;
+}
+
+.address-container {
+  display: flex;
+  background-color: transparent;
+}
+.address-container .address {
+  width: 300px;
+  margin: 15px 40px;
+  background-color: black;
+  text-align: center;
+}
+.address-container .address h3 {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.address-container .address p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+footer .contact {
+  display:flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+footer p {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 20px;
+}
