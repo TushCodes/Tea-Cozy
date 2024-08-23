@@ -6,13 +6,12 @@
   <title>Tea Cozy</title>
   <link rel="stylesheet" href="style.css" type="text/css">
   <link rel="icon" href="./img/logo.png" type="image/png">
-  
 </head>
 
 <body>
 
   <header>
-    <img src="./img/logo.png" alt="Logo">
+    <img class="logo" src="./img/logo.png" alt="Logo">
     <nav>
       <ul>
         <li><a href="#mission">Mission</a></li>
@@ -62,26 +61,33 @@
     <h2>Locations</h2>
     <div class="address-container">
       <section class="address">
+        <img src="./img/images.jpg" alt="downtown">
         <h3>Downtown</h3>
         <p>384 West 4th St <br><br> Suite 108 <br><br> Portland, Maine</p>
       </section>
-      <section class="address">
+      <span class="read-more" style="display: none;">And more...</span>
+      <section class="address hide-location-responsive">
+        <img src="./img/east bayside.jpg" alt="east bayside">
         <h3>East Bayside</h3>
         <p>3433 Phisherman's Avenue <br><br>(Northwest Coener) <br><br>Portland, Maine</p>
       </section>
-      <section class="address">
+      <section class="address hide-location-responsive">
+        <img src="./img/oakdale.jpg" alt="oakdale">
         <h3>Oakdale</h3>
         <p>515 Cresencent Avenue <br><br> Second Floor <br><br>Portland, Maine</p>
       </section>
     </div>
   </section>
 
-  <footer>
-    <div class="contact"><h2>The Tea Cozy</h2>
-    <h5>contact@theteacozy.com</h5>
-    <h5>917-555-8904</h5></div>
-    
-    <p><span>&copy; The Tea Cozy 2017</span></p>
-  </footer>
+    <footer>
+        <h2>The Tea Cozy</h2>
+        <div class="info">
+          <h5>contact@theteacozy.com</h5>
+          <h5>917-555-8904</h5>
+        </div>
+      
+      <p><span>&copy; The Tea Cozy 2017</span></p>
+    </footer>
+  
 </body>
 </html>
